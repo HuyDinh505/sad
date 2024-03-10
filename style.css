@@ -1,0 +1,11 @@
+img{
+    transition: 1.5s;
+}
+body{
+    background-image: url(/11.lythuyet-24.2-sudung-opacity-display-visibility/Screenshot\ 2024-03-06\ 225120.png);
+}
+input:checked ~ img {
+    display: none;
+    /* visibility: hidden; */
+    /* opacity: 0; */
+}
